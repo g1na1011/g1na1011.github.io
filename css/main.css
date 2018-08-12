@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: slide 2s;
+}
+.container .content .header {
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+  color: #59d6b9;
+  margin: 0 auto;
+}
+.container .content .subheader {
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  margin-top: 0;
+}
+.container .content .icons {
+  font-size: 22px;
+}
+.container .content .icons a {
+  color: black;
+  text-decoration: none;
+}
+.container .content .icons a:hover {
+  color: #59d6b9;
+}
+.container .content .icons i {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container .content .header {
+    font-size: 50px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
