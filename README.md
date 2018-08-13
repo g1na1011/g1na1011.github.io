@@ -1,3 +1,3 @@
 # Portfolio Page
 
-Visit [ginazhou.com](www.ginazhou.com).
+Visit [ginazhou.com](http://www.ginazhou.com).
